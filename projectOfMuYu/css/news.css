@@ -1,0 +1,162 @@
+.w {
+    /*版心 提取 */
+    width: 1126px; /*我测量的版心是1076*/
+    margin: 0 auto;
+}
+.container {
+    background-color: #e5e5e5;
+    /*height: 2500px;*/
+    width: 100%;
+}
+
+.news-nav {
+    height: 29px;
+    margin-top: 53px;
+}
+
+.news-nav ul {
+    position: absolute;
+    left: 50%;
+    margin-left: -102px;
+    height: 29px;
+    /*margin: 0 auto;*/
+    /*margin-bottom: 50px;*/
+}
+
+.news-nav li {
+    float: left;
+    margin-left: 5px;
+}
+
+.news-nav a {
+    display: block;
+    width: 63px;
+    height: 29px;
+    text-align: center;
+    line-height: 29px;
+    color: #000;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    /**/
+}
+
+.news-nav a:hover {
+    background: url(../images/news-nav-bj.png) no-repeat;
+    color: #6C6C6C;
+}
+
+.news-nav .current {
+    background: url(../images/news-nav-bj.png) 0 0 no-repeat;
+    color: #6C6C6C;
+}
+
+
+
+.news-all-list {
+    /*display: none;*/
+    overflow: hidden;
+}
+
+.list-item {
+    margin-top: 50px;
+    height: 400px;
+    width: 325px;
+    background-color: #FFF;
+    float: left;
+    margin: 50px 25px 0;
+    overflow: hidden;
+	-webkit-transition: all .7s ease-out .1s;
+    -moz-transition: all .7s ease-out;
+    -o-transition: all .7s ease-out .1s;
+    transition: all .7s ease-out .1s;
+}
+.list-item:hover{
+	-webkit-transition: all .7s ease-out .1s;
+    -moz-transition: all .7s ease-out;
+    -o-transition: all .7s ease-out .1s;
+    transition: all .7s ease-out .1s;
+	background-color:#00B6E0;
+	color:white;
+}
+
+.list-item img {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.list-item p {
+    margin: 10px 15px;
+}
+
+.list-item a{
+	font-size:14px;
+	font-family:"microsoft yahei";
+}
+
+.list-item :hover a{
+	color:white;
+	-webkit-transition: all .7s ease-out .1s;
+    -moz-transition: all .7s ease-out;
+    -o-transition: all .7s ease-out .1s;
+    transition: all .7s ease-out .1s;
+}
+
+.list-item .list-item-title a {
+    color: #000000;
+    font-size: 16px;
+	font-family:"microsoft yahei";
+	-webkit-transition: all .7s ease-out .1s;
+    -moz-transition: all .7s ease-out;
+    -o-transition: all .7s ease-out .1s;
+    transition: all .7s ease-out .1s;
+}
+
+.list-item:hover a{
+	color:white;
+	-webkit-transition: all .7s ease-out .1s;
+    -moz-transition: all .7s ease-out;
+    -o-transition: all .7s ease-out .1s;
+    transition: all .7s ease-out .1s;
+}
+
+.chosePages {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.chosePages a {
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: #01B6E0;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 45px;
+    font-size: 12px;
+}
+
+.chosePages a:hover{
+    background-color: #1ac7e0;
+}
+
+.chosePages .a1 {
+    width: 76px;
+}
+
+.chosePages span{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    color:#000000;
+}
+
+.views-all{
+    display: none;
+    overflow: hidden;
+}
+
+.trends-all{
+    display: none;
+    overflow: hidden;
+}

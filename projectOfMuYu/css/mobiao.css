@@ -1,0 +1,409 @@
+/*导航部分start*/
+.nav {
+    height: 70px;
+    background-image: url("../nav.jpg");
+}
+
+.nav img {
+    margin-left: 20px;
+}
+
+/*导航部分end*/
+
+/*banner部分start*/
+.banner {
+    width: 100%;
+    height: 705px;
+    background: url("../images/xbj19.png") center bottom no-repeat;
+    background-color: #282828;
+    position: relative;
+}
+
+.banner-mba {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.banner-title {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.banner-title .title {
+    color: #ffffff;
+    font: 100 40px "微软雅黑";
+    display: block;
+}
+
+.banner-title .e-title {
+    color: #999;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: 100;
+}
+
+.banner-text {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.banner-text span {
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    display: block;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+.pagedown {
+    width: 42px;
+    height: 42px;
+    display: block;
+    background: url("../images/top-ico3.png");
+    position: absolute;
+    left: 50%;
+    margin-left: -21px;
+    bottom: 30px;
+}
+
+.pagedown img {
+    opacity: 0;
+}
+
+/*banner部分end*/
+/*解决方案部分start*/
+.solution {
+    background-color: #f8f8f8;
+    position: relative;
+    width: 100%;
+    background: url("../images/page-about-bj.png") center bottom no-repeat;
+    height: 745px;
+}
+
+.solution-title {
+    background-color: #282828;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.solution-title .title {
+    color: #ffffff;
+    font: 100 40px "微软雅黑";
+    display: block;
+}
+
+.solution-title .e-title {
+    color: #999;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.solution-border {
+    width: 100%;
+    height: 3px;
+    background: url("../images/border-bottom2.png") center top no-repeat;
+    margin-bottom: 48px;
+}
+
+.solution-icolist {
+    width: 1004px;
+    margin: 0 auto;
+}
+
+.solution-icolist li {
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.icolist1 {
+    padding-bottom: 25px;
+}
+
+.icolist1 .ico01 {
+    width: 206px;
+    height: 206px;
+    display: block;
+    background: url("../images/xico01.png") no-repeat;
+    margin-left: 0;
+}
+
+.icolist1 .ico01:hover {
+    background: url("../images/xico01-hover.png") no-repeat;
+}
+
+.icolist1 .ico02 {
+    width: 206px;
+    height: 206px;
+    display: block;
+    background: url("../images/xico02.png") no-repeat;
+}
+
+.icolist1 .ico02:hover {
+    background: url("../images/xico02-hover.png") no-repeat;
+}
+
+.icolist1 .ico03 {
+    width: 206px;
+    height: 206px;
+    display: block;
+    background: url("../images/xico03.png") no-repeat;
+}
+
+.icolist1 .ico03:hover {
+    background: url("../images/xico03-hover.png") no-repeat;
+}
+
+.icolist1 .ico04 {
+    width: 206px;
+    height: 206px;
+    display: block;
+    background: url("../images/xico04.png") no-repeat;
+}
+
+.icolist1 .ico04:hover {
+    background: url("../images/xico04-hover.png") no-repeat;
+}
+
+.icolist2 {
+    width: 738px;
+    margin: 0 auto;
+}
+
+.icolist2 .ico05 {
+    width: 206px;
+    height: 206px;
+    display: block;
+    background: url("../images/xico05.png") no-repeat;
+    margin-left: 0;
+}
+
+.icolist2 .ico05:hover {
+    background: url("../images/xico05-hover.png") no-repeat;
+}
+
+.icolist2 .ico06 {
+    width: 206px;
+    height: 206px;
+    display: block;
+    background: url("../images/xico06.png") no-repeat;
+}
+
+.icolist2 .ico06:hover {
+    background: url("../images/xico06-hover.png") no-repeat;
+}
+
+.icolist2 .ico07 {
+    width: 206px;
+    height: 206px;
+    display: block;
+    background: url("../images/xico07.png") no-repeat;
+}
+
+.icolist2 .ico07:hover {
+    background: url("../images/xico07-hover.png") no-repeat;
+}
+
+/*解决方案部分end*/
+/*主要案例start*/
+.maincases {
+    position: relative;
+    background-color: #F8F8F8;
+}
+
+.maincases-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.maincases-title .title {
+    color: #000000;
+    font: 100 40px "微软雅黑";
+    display: block;
+}
+
+.maincases-title .e-title {
+    color: #999;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.maincases-border {
+    width: 100%;
+    height: 2px;
+    background: url("../images/xbj4.png") center center no-repeat;
+    padding: 30px 0;
+}
+
+.maincases-content a {
+    width: 355px;
+    height: 211px;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.maincases-content img {
+    border: 3px solid #f3f3f3;
+}
+
+.maincases-content-2, .maincases-content-4, .maincases-content-6 {
+    /*display: none;*/
+}
+
+.cases-bottom {
+    width: 100%;
+    height: 150px;
+    background: url("../images/xbj3.png") center bottom no-repeat;
+    background-color: #282828;
+}
+
+.maincases .pagedown {
+    background: url("../images/top-ico4.png");
+}
+
+.maincases .pagedown img {
+    opacity: 0;
+}
+
+/*主要案例end*/
+/*技术团队start*/
+.tech-team {
+    background-color: #282828;
+    background: url("../images/xbj20.png") center bottom no-repeat;
+    position: relative;
+    /*height: 800px;*/
+    padding-bottom: 100px;
+}
+
+.portfolio {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.tech-team-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tech-team .title {
+    color: #FFFFFF;
+    font: 100 40px "微软雅黑";
+    display: block;
+}
+
+.tech-team .e-title {
+    color: #999;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.tech-team-border {
+    width: 100%;
+    height: 2px;
+    background: url("../images/border-bottom2.png") center bottom no-repeat;
+    margin-bottom: 48px;
+}
+
+.tech-team-list {
+    width: 906px;
+    margin: 0 auto;
+}
+
+.tech-team-list li {
+    text-align: center;
+    margin-right: 70px;
+    margin-bottom: 60px;
+}
+
+.tech-team-list div {
+    width: 174px;
+    height: 174px;
+}
+
+.tech-team-list span {
+    font-family: "微软雅黑";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    display: block;
+}
+
+.tech-team-list .list01 div {
+    background: url("../images/20150911052124940.png") no-repeat;
+}
+
+.tech-team-list .list02 div {
+    background: url("../images/20150911052212849.png") no-repeat;
+}
+
+.tech-team-list .list03 div {
+    background: url("../images/20150911052252698.png") no-repeat;
+}
+
+.tech-team-list .list04 {
+    margin-right: 0;
+}
+
+.tech-team-list .list04 div {
+    background: url("../images/20150911052335455.png") no-repeat;
+}
+
+.tech-team-list .list05 div {
+    background: url("../images/20150911052420659.png") no-repeat;
+}
+
+.tech-team-list .list06 div {
+    background: url("../images/20150911052501932.png") no-repeat;
+}
+
+/*技术团队end*/
+/*更多案例 start*/
+.example {
+    /*height: 160px;*/
+    width: 100%;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.example .til {
+    font: 28px/50px "微软雅黑";
+    color: #262626;
+}
+
+.example p {
+    color: #bfbfbf;
+    font: 15px/50px "微软雅黑";
+}
+
+.example .more {
+    background-color: #00addc;
+    margin: 0 auto;
+    width: 116px;
+    height: 38px;
+    border-radius: 15px;
+    font: 12px/38px "微软雅黑";
+}
+
+.example .more a {
+    display: block;
+    color: #fff;
+    width: 116px;
+    height: 38px;
+    border-radius: 15px;
+}
+
+/*更多案例 end*/
+.foot{
+	background-color:#FFF;
+}

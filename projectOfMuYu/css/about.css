@@ -1,0 +1,643 @@
+/*顶部导航啦 start*/
+.top-nav {
+    width: 100%;
+    height: 70px;
+    background: url(../images/nav-bj.png) repeat-x;
+}
+
+.nav-logo a {
+    width: 97px;
+    height: 140px;
+    position: absolute;
+    left: 20px;
+    z-index: 9999;
+}
+
+.nav-right {
+    float: right;
+}
+
+.M-nav {
+    height: 70px;
+    float: left;
+}
+
+.M-nav ul li div #abfixed {
+    margin-top: -20px;!important;
+}
+
+.M-nav li {
+    width: 100px;
+    float: left;
+}
+
+.M-nav li div {
+    overflow: hidden;
+    height: 20px;
+    margin-top: 25px;
+}
+
+.M-nav li a p {
+    text-align: center;
+}
+
+.nav-right .M-nav ul li .navfixed {
+    margin-top: -20px !important;
+}
+
+.M-nav li a p span {
+    color: #a9a9a9;
+    font-family: "微软雅黑";
+}
+
+.M-nav li a p font {
+    color: #ffffff;
+    font-family: "微软雅黑";
+}
+
+.M-nav li a p span, font {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.iconbar {
+    /*width: 130px;*/
+    height: 70px;
+    /*float: right;*/
+}
+
+.li-bg {
+    background: url(../images/tel-bj.png);
+}
+
+.iconbar li {
+    margin-top: 19px;
+    float: right;
+    position: relative;
+    margin-right: 10px;
+    width: 31px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.iconbar li a {
+    display: block;
+    width: 176px;
+    height: 30px;
+    /*overflow: hidden;*/
+}
+
+.iconbar li span {
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    display: none;
+    color: #767676;
+    background-color: #292929;
+    border-radius: 0 16px 16px 0;
+}
+
+/*topcontainer开始*/
+.xmuyu-top {
+    background: url(../images/xbj1.png) center top no-repeat #F8F8F8;
+    height: 583px;
+    width: 100%;
+    padding-top: 160px;
+    position: relative;
+}
+
+.sideMenu3 {
+    width: 100%;
+}
+
+.sideMenu3 ul {
+    background: url("../images/xbj2.png");
+    padding: 8px 25px;
+    color: #999;
+}
+
+.heartjump {
+    width: 100%;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.heartjump span {
+    height: 65px;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 60px;
+    line-height: 65px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.heartjump p {
+    font-family: "微软雅黑";
+    font-size: 22px;
+    color: #bfbfbf;
+    display: block;
+    line-height: 30px;
+}
+
+.sideMenu3 h3 {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-bottom: 1px solid #8F8F8F;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: "微软雅黑";
+    display: block;
+    color: #ffffff;
+}
+
+.nativ {
+    width: 534px;
+    margin: 0 auto;
+}
+
+.nativ em {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/xico1.png) no-repeat;
+    position: relative;
+    left: 10px;
+    top: 23px;
+    cursor: pointer;
+}
+
+.top-ico {
+    background: url(../images/top-ico3.png) no-repeat;
+    width: 43px;
+    height: 43px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -21px;
+}
+
+/*WHO ARE WE 部分开始*/
+
+.myabout {
+    background: url(../images/xbj3.png) center top no-repeat #282828;
+    height: 660px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.whowe {
+    text-align: center;
+    margin: 0 auto;
+    height: 98px;
+}
+
+.whowe img {
+    margin-bottom: 20px;
+}
+
+.whowe span {
+    display: block;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    color: #999999;
+    font-weight: 100;
+}
+
+.bottom-border {
+    width: 100%;
+    height: 3px;
+    margin-bottom: 48px;
+    background: url(../images/xbj4.png) center;
+}
+
+.who-main {
+    background: url(../images/xbj7.png) no-repeat;
+    width: 695px;
+    height: 222px;
+    margin: 0 auto;
+    padding-top: 140px;
+    padding-left: 320px;
+}
+
+.who-main li {
+    float: left;
+    width: 75px;
+    margin-right: 125px;
+    text-align: center;
+}
+
+.who-main li b {
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.who-main li div {
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.about-ico {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url(../images/top-ico4.png) no-repeat;
+    width: 43px;
+    height: 43px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -21px;
+}
+
+.about-ico:hover {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url(../images/top-ico2-hover.png);
+}
+
+/*viewpoint部分开始*/
+.view {
+    background: #f8f8f8 url(../images/page-about-bj.png) center;
+    height: 617px;
+    width: 100%;
+    padding-top: 46px;
+    position: relative;
+}
+
+.view-top {
+    text-align: center;
+    margin: 0 auto;
+    height: 98px;
+}
+
+.view-top img {
+    margin-bottom: 20px;
+}
+
+.view-top span {
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #808080;
+}
+
+.view-bottom-border {
+    background: url(../images/border-bottom2.png) no-repeat center;
+    height: 3px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.view-container {
+    width: 533px;
+    height: 191px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.showl .lovebtn1 {
+    width: 187px;
+    height: 187px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 21;
+}
+
+.showlbox {
+    width: 528px;
+    height: 187px;
+    position: absolute;
+    left: -340px;
+    top: 0px;
+    background: url(../images/love-bj.png) no-repeat;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    color: #585858;
+    line-height: 180%;
+    padding-top: 34px;
+    padding-left: 190px;
+    z-index: 0;
+
+}
+
+.lovejia {
+    position: absolute;
+    left: 247px;
+    top: 75px;
+}
+
+.showr {
+    height: 187px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+
+.showr .lovebtn2 {
+    width: 187px;
+    height: 187px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.showrbox {
+    width: 528px;
+    height: 187px;
+    background: url(../images/love-bj.png) no-repeat;
+    text-indent: 2em;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+    line-height: 180%;
+    padding-top: 40px;
+    padding-left: 30px;
+    z-index: 2;
+    position: absolute;
+    right: -380px;
+    top: 0;
+}
+
+.viewicon {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url(../images/top-ico3.png) no-repeat;
+    width: 43px;
+    height: 43px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -21px;
+}
+
+/*Maps部分开始*/
+.maps {
+    width: 100%;
+    height: 860px;
+    background: url(../images/xbj5.png) center top no-repeat #282828;
+    padding-top: 50px;
+    position: relative;
+}
+
+.maptop {
+    text-align: center;
+    margin: 0 auto;
+    height: 98px;
+}
+
+.maptop img {
+    margin-bottom: 20px;
+}
+
+.maptop span {
+    display: block;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    color: #999999;
+    font-weight: 100;
+}
+
+.myimg {
+    text-align: center;
+    transition: all 2s;
+}
+
+/*Team部分开始*/
+.muyuteam {
+    height: 855px;
+    background: url(../images/page-about-bj.png) center bottom no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+.bg8 {
+    background: #282828;
+    padding-top: 50px;
+}
+
+.team-top {
+    text-align: center;
+    margin: 0 auto;
+    height: 98px;
+}
+
+.team-top img {
+    margin-bottom: 20px;
+}
+
+.team-top span {
+    display: block;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    color: #999999;
+    font-weight: 100;
+}
+
+.team-person {
+    width: 910px;
+    margin: 0 auto;
+}
+
+.team-person ul li {
+    float: left;
+    width: 174px;
+    height: 240px;
+    margin-right: 70px;
+    margin-bottom: 60px;
+}
+
+.my-t1 {
+    font-family: "微软雅黑";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.viewicon:hover {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url("../images/top-ico1-hover.png");
+}
+
+/*TeamPhoto部分开始*/
+.teamphoto {
+    background: url(../images/xbj8.png) center top no-repeat #F3F3F3;
+    height: 728px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+/*space部分开始*/
+.space {
+    width: 100%;
+    background: #F3F3F3;
+    text-align: center;
+    padding-top: 55px;
+    height: 213px;
+}
+
+.space .linggan {
+    font-family: "微软雅黑";
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: #262626;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.space .workspace {
+    color: #bfbfbf;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.space .joinus {
+    background: url(../images/btn.png) no-repeat;
+    width: 116px;
+    height: 37px;
+    line-height: 37px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+}
+
+/*底部 start*/
+.foot {
+    /*margin-top: 200px;*/
+    width: 100%;
+    height: 386px;
+    background: url(../images/work-foot-bj.png) center center;
+    color: #717171;
+}
+
+.foot-content {
+    width: 920px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 160px;
+    margin-top: -40px;
+}
+
+.foot-content-left {
+    width: 216px;
+    font: 20px "微软雅黑";
+    color: #d3d3d3;
+    float: left;
+    line-height: 100px;
+}
+
+.foot-content-center {
+    width: 385px;
+    height: 100px;
+    margin-left: 45px;
+    /*background-color: greenyellow;*/
+    float: left;
+}
+
+.foot-content-center img {
+    margin-left: 25px;
+}
+
+.foot-content-right {
+    width: 251px;
+    float: right;
+    /*background-color: pink;*/
+    font: 20px "微软雅黑";
+    color: #d3d3d3;
+}
+
+.foot-content-right span {
+    line-height: 100px;
+}
+
+.foothide {
+    margin-top: 37px;
+    width: 160px;
+    height: 24px;
+    float: right;
+    /*background-color: yellowgreen;*/
+    overflow: hidden;
+    position: relative;
+}
+
+#foottelephone {
+    height: 78px;
+    position: absolute;
+    top: 0;
+}
+
+#foottelephone li {
+    height: 24px;
+}
+
+.foot-content-right ul li {
+
+}
+
+.address {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #717171;
+    text-align: center;
+    margin-top: 80px;
+}
+
+/*咨询*/
+#topcontrol {
+    position: fixed;
+    top: 70px;
+    right: -200px;
+}
+
+.onlineconsulting {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#ceshi {
+    height: 1000px;
+    width: 100%;
+    background-color: pink;
+}

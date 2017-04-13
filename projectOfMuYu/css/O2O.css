@@ -1,0 +1,423 @@
+/*图一*/
+.r{
+    width: 100%;
+    margin: 0 auto;
+}
+.w{
+    width: 100%;
+    margin: 0 auto;
+}
+.back1 {
+    height: 780px;
+    position: relative;
+    z-index: 1;
+    background: url(../images/xbj11.png) center bottom no-repeat;
+}
+
+.handtop {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -340px;
+    z-index: 1;
+}
+
+.handbottom {
+    position: absolute;
+    top: 142px;
+    left: 50%;
+    margin-left: -242px;
+}
+
+.banner {
+    width: 387px;
+    height: 290px;
+    position: absolute;
+    /*left: 483px;*/
+    left: 50%;
+    top: 92px;
+    margin-left: -193px;
+    overflow: hidden;
+}
+
+.banner li {
+    float: left;
+}
+
+.banner ul {
+    width: 1935px;
+    position: absolute;
+}
+
+.banner ol {
+    position: absolute;
+    top: 270px;
+    left: 165px;
+    z-index: 5;
+}
+
+.banner ol li {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: grey;
+    margin-right: 10px;
+}
+
+#ol-current {
+    background-color: #FFFFFF;
+}
+
+.bannerText {
+    width: 100%;
+    position: absolute;
+    top: 400px;
+
+}
+
+.bannerText h1 {
+    height: 50px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.bannerText span {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: center;
+    display: block;
+}
+
+.bannerTitle {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+/*按钮*/
+.btn {
+    position: absolute;
+    left: 50%;
+    margin-left: -21px;
+}
+
+.back1 .btn {
+    top: 715px;
+}
+
+.btn a {
+    background: url(../images/top-ico1.png);
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    width: 43px;
+    height: 43px;
+    display: block;
+
+}
+
+#btn1 a:hover, #btn2 a:hover {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url(../images/top-ico1-hover.png) center no-repeat;
+}
+
+/*图二*/
+.back2 {
+    width: 100%;
+    /*background-size: cover;*/
+}
+
+.back2top {
+    width: 100%;
+    height: 235px;
+    background-color: #282828;
+    position: absolute;
+    top: 685px;
+}
+
+.back2top .position {
+    width: 208px;
+    position: absolute;
+    top: 178px;
+    left: 50%;
+    margin-left: -104px;
+}
+
+.back2top span {
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: #808080;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    margin: 25px 0;
+
+}
+
+.bottom-border {
+    position: absolute;
+    top: 950px;
+}
+
+.back-bottom {
+    width: 100%;
+    height: 730px;
+    background: url(../images/page-about-bj.png) center bottom no-repeat;
+    /*background-size: cover;*/
+}
+
+.back-bottom .pic {
+    margin-top: -20px;
+    position: absolute;
+    top: 1010px;
+    z-index: 1;
+    left: 50%;
+    margin-left: -170px;
+}
+
+.back-bottom .pic img {
+    cursor: pointer;
+}
+
+.back-bottom .pic li {
+    float: left;
+    width: 138px;
+}
+
+.back-bottom .pic .link {
+    width: 77px;
+    height: 5px;
+    background-color: #808080;
+    float: left;
+    margin-left: 61px;
+    position: absolute;
+    top: 50%;
+}
+
+.back-bottom .pic-text {
+    text-align: center;
+    width:928px ;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 354px;
+    padding-top: 280px;
+}
+.back-bottom .pic-text img{
+    margin: 0 auto;
+    text-align: center;
+    /*position: relative;*/
+    /*left: 45%;*/
+    /*margin-left: -674px;*/
+
+}
+.back-bottom .pic-text #pictwo {
+    display: none;
+}
+
+.back-bottom .pic-text #picthree {
+    display: none;
+}
+
+.back-bottom .btn {
+    top: 1450px;
+}
+
+/*图三*/
+.back3-titlepic {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.back3-title {
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: #808080;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/*轮播图*/
+.back3 {
+    height: 815px;
+    background: url(../images/xbj17.png) center bottom no-repeat #F3F3F3;
+    position: relative;
+    z-index: 2;
+}
+
+.back3-img {
+    width: 100%;
+    height: 400px;
+}
+
+.back3-img .screen {
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -470px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.back3-img ul {
+    width: 2500px;
+    position: absolute;
+    left: 0;
+}
+
+.back3-img li {
+    float: left;
+    padding-right: 50px;
+}
+
+.back3-img a {
+    width: 470px;
+}
+
+.back3-img a div {
+    width: 471px;
+}
+
+.back3-img h2 {
+    color: #333333;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.back3-img p {
+    display: block;
+    height: 48px;
+    color: #999;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.back3-img a .detile {
+    width: 113px;
+    height: 40px;
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url(../images/xbtn1.png) no-repeat;
+    margin-top: 45px;
+    position: relative;
+    left: 50%;
+    margin-left: -56px;
+}
+
+.back3-img a .detile:hover {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url(../images/xbtn1-hover.png) no-repeat;
+
+}
+
+.back3-img .btn {
+    width: 43px;
+    top: 750px;
+}
+
+.back3-img .btn a {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url(../images/top-ico4.png) no-repeat;
+}
+
+.back3-img .btn a:hover {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+    background: url(../images/top-ico4-hover.png) no-repeat;
+}
+
+.back3-img .arr {
+    height: 97px;
+    position: relative;
+    top: 200px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.back3-img .arr .left {
+    height: 97px;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.back3-img .arr .left:hover {
+    background: url(../images/xleft-hover.png) no-repeat;
+}
+
+.back3-img .arr .right {
+    height: 97px;
+    position: absolute;
+    top: 0;
+    right: 55px;
+}
+
+.back3-img .arr .right:hover {
+    background: url(../images/xright-hover.png) no-repeat;
+}
+
+/*图四*/
+.back4 {
+    width: 100%;
+    height: 250px;
+    background-color: #F3F3F3;
+}
+
+.back4 h2 {
+    padding-top: 45px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #262626
+}
+
+.back4 p {
+    color: #bfbfbf;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.back4 a {
+    background: url(../images/btn.png) no-repeat;
+    width: 116px;
+    height: 37px;
+    line-height: 37px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    left: 50%;
+    margin-left: -58px;
+    cursor: pointer;
+}
+.foot{
+	background-color:#F3F3F3;
+}

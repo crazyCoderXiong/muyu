@@ -1,0 +1,223 @@
+/*木鱼banner  start*/
+.section1 {
+    width: 100%;
+    height: 805px;
+    background: #282828 url("../images/xbj18.png") center;
+    position: relative;
+}
+
+.muyu-banner {
+    padding-top: 157px;
+}
+
+.my-text {
+    padding-top: 50px;
+}
+
+.my-text span {
+    font: 100 40px "微软雅黑";
+    display: block;
+    color: #fff;
+}
+
+.my-text em {
+    color: #999;
+    font: 100 14px "微软雅黑";
+}
+
+.my-text2 {
+    padding-top: 35px;
+    color: #fff;
+    text-indent: 2em;
+    font: 14px/24px "微软雅黑";
+}
+
+.top-ico3 {
+    background: url(../images/top-ico3.png) no-repeat;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -21px;
+}
+
+/*木鱼banner  end*/
+
+/*我们的服务 start*/
+.section2 {
+    width: 100%;
+    height: 699px;
+    background: #f3f3f3 url("../images/page-about-bj.png") center bottom no-repeat;
+    position: relative;
+}
+
+.service-top {
+    padding-top: 46px;
+    height: 98px;
+    background-color: #282828;
+}
+
+.service-top img, .works-top img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.service-top span, .works-top span {
+    font: 20px "微软雅黑";
+    color: #808080;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.service-top .bottom-border {
+    background: url(../images/border-bottom2.png) no-repeat center;
+    height: 3px;
+    width: 100%;
+}
+
+.service-content {
+    padding-top: 30px;
+    width: 785px;
+    margin: 0 auto;
+}
+
+.service-content li {
+    float: left;
+    width: 185px;
+    margin-right: 110px;
+}
+
+.service-content li.last-li {
+    margin-right: 0;
+}
+
+.ser-ico {
+    transition: transform 1s linear;
+}
+
+.ser-ico:hover {
+    transform: rotate(180deg) scale(1.1);
+}
+
+.ser-ico1 {
+    background: url(../images/xico6.png) no-repeat;
+}
+
+.ser-ico2 {
+    background: url(../images/xico7.png) no-repeat;
+}
+
+.ser-ico3 {
+    background: url(../images/xico8.png) no-repeat;
+}
+
+.ser-ico {
+    width: 185px;
+    height: 185px;
+}
+
+.ser-t1 {
+    font: 16px "微软雅黑";
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.ser-t2 {
+    font: 14px "微软雅黑";
+    color: #999;
+    line-height: 24px;
+}
+
+/*我们的服务结束 end*/
+.section3 {
+    width: 100%;
+    height: 583px;
+    padding-top: 50px;
+    background-color: #f3f3f3;
+}
+
+/*我们的作品 start*/
+.works-top {
+
+}
+
+.works-top .bottom-border {
+    background: url(../images/border-bottom2.png) no-repeat center;
+    height: 3px;
+    width: 100%;
+}
+
+.works-brand {
+    width: 1090px;
+    height: 397px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.works-brand li {
+    float: left;
+    position: relative;
+    width: 355px;
+    height: 211px;
+    border: 3px solid #f3f3f3;
+}
+
+.just img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 355px;
+    height: 211px;
+    z-index: 2;
+}
+
+.against img {
+    position: absolute;
+    width: 0px;
+    left: 177.5px;
+    top: 0;
+    height: 211px;
+    z-index: 1;
+}
+
+/*我们的作品 end*/
+
+/*更多案例 start*/
+.example {
+    height: 160px;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.example .til {
+    font: 28px/50px "微软雅黑";
+    color: #262626;
+}
+.example p {
+    color: #bfbfbf;
+    font: 15px/50px "微软雅黑";
+}
+.example .more {
+    background-color: #00addc;
+    margin: 0 auto;
+    width: 116px;
+    height: 38px;
+    border-radius: 15px;
+    font:12px/38px "微软雅黑";
+}
+.example .more a {
+    display: block;
+    color: #fff;
+    width: 116px;
+    height: 38px;
+    border-radius: 15px;
+}
+/*更多案例 end*/
+.foot{
+	background-color:#F3F3F3;
+}

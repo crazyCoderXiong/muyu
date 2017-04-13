@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>木鱼网络  错误提示：Error 404 (Page Not Found)</title>
+<link rel="stylesheet" type="text/css" href="/css/basic.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css"><link rel="icon" href="images/logo-ico.png" type="images/png">
+</head>
+
+<body style="background:#ffffff !important;">
+<div class="m-404">
+	<div class="MY-LOGO" style="position:fixed;
+    left:20px;
+    top:0px;">
+    	<a href="http://muyu007.com/"><img src="/images/logo.png"></a>
+    </div>
+	<div class="m-404-main">
+    	<div class="content-404-btn clearfix">
+    		<a href="javascript:history.go(-1);" class="btn-main fl"><em></em>返回上一级</a>
+    		<a href="http://muyu007.com/" class="btn-main fl"><em></em>访问木鱼官网</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
